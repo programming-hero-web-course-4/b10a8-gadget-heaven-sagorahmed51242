@@ -1,0 +1,937 @@
+
+    {
+        "product_id": "L001",
+        "product_title": "Dell XPS 13",
+        "product_image": "https://i.ibb.co.com/6Dw12JG/still-life-books-versus-technology.jpg",
+        "category": "Laptops",
+        "price": 80000,
+        "description": "Ultra-thin, ultra-light laptop with excellent build quality.",
+        "specification": [
+            "13.4-inch FHD+ display",
+            "Intel Core i7 12th Gen",
+            "16GB RAM",
+            "512GB SSD",
+            "Intel Iris Xe graphics"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "MB001",
+        "product_title": "MacBook Air M2",
+        "product_image": "https://i.ibb.co.com/t3dwKct/Mac-Book-Air-13-in-M3-Space-Gray-PDP-Image-Position-1-WWEN.jpg",
+        "category": "Laptop",
+        "price": 150000,
+        "description": "The MacBook Air powered by Apple's M2 chip, known for its performance and energy efficiency.",
+        "specification": [
+            "13.6-inch Retina display",
+            "Apple M2 chip",
+            "8GB unified memory, configurable up to 24GB",
+            "256GB SSD storage, configurable up to 2TB",
+            "FaceTime HD camera",
+            "Magic Keyboard with Touch ID"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+     {
+        "product_id": "H010",
+        "product_title": "Marshall Monitor II ANC",
+        "product_image": "https://i.ibb.co.com/dDhQDp1/oneplus-buds-3-blue-01.jpg",
+        "category": "Headphones",
+        "price": 4000,
+        "description": "Stylish over-ear headphones with active noise cancellation and superior sound quality.",
+        "specification": [
+            "30-hour battery life",
+            "Active noise cancellation",
+            "Bluetooth 5.0",
+            "Custom drivers",
+            "Iconic design"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+        {
+        "product_id": "SW001",
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://i.ibb.co.com/B6bsKM6/apple-watch-series-10-42mm-gps-rose-gold-sport-loop-plum-01.jpg",
+        "category": "Smartwatch",
+        "price": 3999,
+        "description": "The latest Apple Watch with advanced health features, GPS, and always-on display.",
+        "specification": [
+            "Always-on display",
+            "Health tracking features",
+            "Blood oxygen monitoring",
+            "Fall detection",
+            "Water resistant up to 50 meters"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "P010",
+        "product_title": "Motorola Edge 40 Pro",
+        "product_image": "https://i.ibb.co.com/pny5H5Q/motorola-g54-ambrosia-1.jpg",
+        "category": "Smartphone",
+        "price": 75000,
+        "description": "Stylish smartphone with a curved display and top-notch performance.",
+        "specification": [
+            "6.67-inch pOLED display",
+            "Snapdragon 8 Gen 2 processor",
+            "12GB RAM, 256GB storage",
+            "50MP main camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "L004",
+        "product_title": "Asus ROG Zephyrus G15",
+        "product_image": "https://i.ibb.co/com/4TrbD9d/Ajc3ez-CTN4-FGz2v-F4-Lp-Qn9.jpg",
+        "category": "Laptops",
+        "price": 179900,
+        "description": "High-performance gaming laptop with AMD Ryzen processor.",
+        "specification": [
+            "15.6-inch QHD display",
+            "AMD Ryzen 9 5900HS",
+            "16GB RAM",
+            "1TB SSD",
+            "NVIDIA RTX 3070"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+     {
+        "product_id": "P003",
+        "product_title": "Samsung Galaxy s24 ultra",
+        "product_image": "https://i.ibb.co.com/k2FYLNq/samsung-galaxy-s24-ultra-titanium-black-01.jpg",
+        "category": "Smartphone",
+        "price": 105000,
+        "description": "The newest Pixel with AI features and a superb camera experience.",
+        "specification": [
+            "6.7-inch LTPO OLED display",
+            "Google Tensor G3 chip",
+            "12GB RAM, 128GB/256GB/512GB storage options",
+            "50MP main camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+        {
+        "product_id": "P004",
+        "product_title": "OnePlus 11",
+        "product_image": "https://i.ibb.co.com/d0w7h5z/One-Plus-Nord-3-Grey-01-new.jpg",
+        "category": "Smartphone",
+        "price": 75000,
+        "description": "Flagship smartphone with fast charging and a high refresh rate display.",
+        "specification": [
+            "6.7-inch AMOLED display",
+            "Snapdragon 8 Gen 2 processor",
+            "8GB/16GB RAM, up to 512GB storage",
+            "50MP main camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "L005",
+        "product_title": "Lenovo ThinkPad X1 Carbon",
+        "product_image": "https://i.ibb.co/com/t3pbcSG/download.jpg",
+        "category": "Laptops",
+        "price": 129900,
+        "description": "Lightweight business laptop with strong build quality.",
+        "specification": [
+            "14-inch FHD display",
+            "Intel Core i7 11th Gen",
+            "16GB RAM",
+            "512GB SSD",
+            "Fingerprint reader"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "L006",
+        "product_title": "Microsoft Surface Laptop 5",
+        "product_image": "https://i.ibb.co/com/CJvdq4q/27-big-dell-xps-13.jpg",
+        "category": "Laptops",
+        "price": 109900,
+        "description": "Sleek and modern laptop with high-resolution touch display.",
+        "specification": [
+            "13.5-inch PixelSense display",
+            "Intel Core i5 12th Gen",
+            "8GB RAM",
+            "256GB SSD",
+            "Windows Hello support"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "L007",
+        "product_title": "Razer Blade 15",
+        "product_image": "https://i.ibb.co/com/Q9MZCp7/Dell-XPS-13-Plus.jpg",
+        "category": "Laptops",
+        "price": 199999,
+        "description": "Premium gaming laptop with stunning display and performance.",
+        "specification": [
+            "15.6-inch QHD display",
+            "Intel Core i7 12th Gen",
+            "16GB RAM",
+            "1TB SSD",
+            "NVIDIA GeForce RTX 3080"
+        ],
+        "availability": false,
+        "rating": 4.6
+    },
+    {
+        "product_id": "L008",
+        "product_title": "Acer Swift 3",
+        "product_image": "https://i.ibb.co/com/mGS5382/1684830793-149.jpg",
+        "category": "Laptops",
+        "price": 89900,
+        "description": "Affordable, lightweight laptop for everyday use.",
+        "specification": [
+            "14-inch FHD display",
+            "AMD Ryzen 7 5700U",
+            "8GB RAM",
+            "512GB SSD",
+            "Backlit keyboard"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+      {
+      "product_id": "I001",
+      "product_title": "iPhone 15 Pro Max",
+      "product_image": "https://i.ibb.co.com/jzc7Mct/apple-iphone-16-pro-max-desert-titanium-01.jpg",
+      "category": "iPhone",
+      "price": 125000,
+      "description": "The latest iPhone with a high-performance A17 Pro chip and advanced triple-camera system.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Pro chip",
+        "512GB storage",
+        "Triple 48MP Main, 12MP Ultra Wide, 12MP Telephoto cameras",
+        "5G capable",
+        "Ceramic Shield"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+        "product_id": "L009",
+        "product_title": "LG Gram 17",
+        "product_image": "https://i.ibb.co/com/nQmtwtm/dell-6cvc6-16-3-xps-16-9640-1827009.jpg",
+        "category": "Laptops",
+        "price": 149900,
+        "description": "Ultra-light laptop with a large display, ideal for multitasking.",
+        "specification": [
+            "17-inch WQXGA display",
+            "Intel Core i7 11th Gen",
+            "16GB RAM",
+            "1TB SSD",
+            "Ultra-lightweight"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "L010",
+        "product_title": "Samsung Galaxy Book Pro 360",
+        "product_image": "https://i.ibb.co/com/D4TStmt/dell-xps-0002-V0-F3-D24072417-ISH611.jpg",
+        "category": "Laptops",
+        "price": 129900,
+        "description": "Convertible laptop with AMOLED display and S Pen support.",
+        "specification": [
+            "13.3-inch AMOLED touch display",
+            "Intel Core i7 11th Gen",
+            "16GB RAM",
+            "512GB SSD",
+            "S Pen support"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+      {
+        "product_id": "MB002",
+        "product_title": "MacBook Pro 14 M1 Pro",
+        "product_image": "https://i.ibb.co.com/vcZbTQk/Mac-Book-Air-15-in-M3-Silver-PDP-Image-Position-1-WWEN.jpg",
+        "category": "Laptop",
+        "price": 150000,
+        "description": "Powerful 14-inch MacBook Pro with M1 Pro chip, designed for professionals and creatives.",
+        "specification": [
+            "14.2-inch Liquid Retina XDR display",
+            "Apple M1 Pro chip",
+            "16GB unified memory, configurable up to 32GB",
+            "512GB SSD storage, configurable up to 8TB",
+            "High-fidelity six-speaker sound system",
+            "MagSafe 3 charging port"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+      {
+        "product_id": "P001",
+        "product_title": "OnePlus Nord",
+        "product_image": "https://i.ibb.co.com/VwLHkdZ/One-Plus-Nord-CE3-Lite-Lime-01-new.jpg",
+        "category": "Smartphone",
+        "price": 145000,
+        "description": "The latest iPhone with A17 Pro chip, enhanced camera system, and sleek design.",
+        "specification": [
+            "6.1-inch Super Retina XDR display",
+            "A17 Pro chip",
+            "128GB/256GB/512GB/1TB storage options",
+            "Triple 48MP main camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+     {
+        "product_id": "P002",
+        "product_title": "Samsung Galaxy S23 Ultra",
+        "product_image": "https://i.ibb.co.com/bBJdYgp/samsung-galaxy-s24-fe-blue-01.jpg",
+        "category": "Smartphone",
+        "price": 145000,
+        "description": "Flagship smartphone with an impressive camera setup and S Pen support.",
+        "specification": [
+            "6.8-inch Dynamic AMOLED 2X display",
+            "Snapdragon 8 Gen 2 processor",
+            "12GB RAM, up to 1TB storage",
+            "200MP main camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+     {
+        "product_id": "SW007",
+        "product_title": "TicWatch Pro 3",
+        "product_image": "https://i.ibb.co.com/zXtKcNH/zte-k1-pro-pink-01.jpg",
+        "category": "Smartwatch",
+        "price": 4000,
+        "description": "Dual-display smartwatch with health tracking and powerful performance.",
+        "specification": [
+            "1.4-inch AMOLED display",
+            "Dual-display technology",
+            "Wear OS by Google",
+            "Heart rate monitoring",
+            "IP68 water resistant"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+     {
+        "product_id": "L003",
+        "product_title": "HP Spectre x360",
+        "product_image": "https://i.ibb.co/com/k4MWgF3/view-3d-laptop-device-with-screen-keyboard.jpg",
+        "category": "Laptops",
+        "price": 139900,
+        "description": "Flexible 2-in-1 laptop with excellent touch support.",
+        "specification": [
+            "13.5-inch FHD+ touch display",
+            "Intel Core i7 12th Gen",
+            "16GB RAM",
+            "1TB SSD",
+            "360° hinge"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "L002",
+        "product_title": "MacBook Pro 14-inch",
+        "product_image": "https://i.ibb.co.com/WV0djfC/anete-lusina-zws-Hjak-E-i-I-unsplash.jpg",
+        "category": "Laptops",
+        "price": 199999,
+        "description": "Powerful laptop with Apple M2 Pro chip and Retina XDR display.",
+        "specification": [
+            "14.2-inch Retina XDR display",
+            "Apple M2 Pro chip",
+            "16GB RAM",
+            "512GB SSD",
+            "Magic Keyboard"
+        ],
+        "availability": false,
+        "rating": 4.9
+    },
+    {
+      "product_id": "I004",
+      "product_title": "iPhone 12 Pro",
+      "product_image": "https://i.ibb.co.com/Kw6pvC8/9110683-3-U840-KLGd-Mu-Mf-Bdr1-GPCGc-1.jpg",
+      "category": "iPhone",
+      "price": 105000,
+      "description": "iPhone with LiDAR, night mode portraits, and excellent camera performance.",
+      "specification": [
+        "6.1-inch Super Retina XDR display",
+        "A14 Bionic chip",
+        "256GB storage",
+        "Triple 12MP cameras with LiDAR",
+        "5G capable",
+        "Ceramic Shield"
+      ],
+      "availability": false,
+      "rating": 4.6
+    },
+    {
+      "product_id": "I005",
+      "product_title": "iPhone 11 Pro Max",
+      "product_image": "https://i.ibb.co.com/DGC4KwY/apple-iphone-16-pro-max-clear-case-magsafe.jpg",
+      "category": "iPhone",
+      "price": 100500,
+      "description": "Large display with ultra-wide camera and powerful A13 Bionic chip.",
+      "specification": [
+        "6.5-inch Super Retina XDR display",
+        "A13 Bionic chip",
+        "256GB storage",
+        "Triple 12MP cameras with night mode",
+        "4G LTE capable",
+        "Water and dust resistant"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "I006",
+      "product_title": "iPhone XS Max",
+      "product_image": "https://i.ibb.co.com/p2hXrhm/screenor-magsafe-bumper-iphone-16-pro-max-01.jpg",
+      "category": "iPhone",
+      "price": 115000,
+      "description": "iPhone with OLED display, powerful performance, and dual cameras.",
+      "specification": [
+        "6.5-inch Super Retina OLED display",
+        "A12 Bionic chip",
+        "512GB storage",
+        "Dual 12MP cameras with Smart HDR",
+        "Face ID",
+        "Water and dust resistant"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": "I007",
+      "product_title": "iPhone XR",
+      "product_image": "https://i.ibb.co.com/Lh0mnY5/iphone-15-plus-black-01.jpg",
+      "category": "iPhone",
+      "price": 100000,
+      "description": "Affordable iPhone with Liquid Retina display and A12 Bionic chip.",
+      "specification": [
+        "6.1-inch Liquid Retina HD display",
+        "A12 Bionic chip",
+        "256GB storage",
+        "Single 12MP rear camera",
+        "Face ID",
+        "Water and dust resistant"
+      ],
+      "availability": true,
+      "rating": 4.0
+    },
+       {
+        "product_id": "H007",
+        "product_title": "Focal Bathys",
+        "product_image": "https://i.ibb.co.com/ynnn2wF/jbl-tune-beam-musta-1.jpg",
+        "category": "Headphones",
+        "price": 5500,
+        "description": "High-fidelity wireless headphones with hybrid noise cancellation and high-resolution audio.",
+        "specification": [
+            "Hybrid Active Noise Cancellation",
+            "30-hour battery life",
+            "High-resolution audio",
+            "Comfortable fit",
+            "Custom sound settings"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+        {
+        "product_id": "MB003",
+        "product_title": "MacBook Pro 16 M1 Max",
+        "product_image": "https://i.ibb.co.com/7ySN8St/9109499-5y-Rf2z-Fif-PRr-Gb-Y4d-Om-RLl.jpg",
+        "category": "Laptop",
+        "price": 150000,
+        "description": "The ultimate MacBook Pro with M1 Max chip, ideal for intensive computing tasks.",
+        "specification": [
+            "16.2-inch Liquid Retina XDR display",
+            "Apple M1 Max chip",
+            "16GB unified memory, configurable up to 64GB",
+            "1TB SSD storage, configurable up to 8TB",
+            "1080p FaceTime HD camera",
+            "Touch Bar and Touch ID"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+     {
+        "product_id": "P008",
+        "product_title": "Samsung Galaxy Foldable",
+        "product_image": "https://i.ibb.co.com/7RCn3x9/samsung-galaxy-fold6-pink-01.jpg",
+        "category": "Smartphone",
+        "price": 70000,
+        "description": "High-performance smartphone with fast charging and excellent gaming capabilities.",
+        "specification": [
+            "6.74-inch AMOLED display",
+            "Snapdragon 8 Gen 2 processor",
+            "8GB/16GB RAM, up to 512GB storage",
+            "50MP main camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "H008",
+        "product_title": "Bowers & Wilkins PX7",
+        "product_image": "https://i.ibb.co.com/fSt4r50/9106316-76x-Vimr-SSnr2t3-XBx-Utcwd.jpg",
+        "category": "Headphones",
+        "price": 4500,
+        "description": "Premium over-ear headphones with adaptive noise cancellation and excellent sound quality.",
+        "specification": [
+            "30-hour battery life",
+            "Adaptive noise cancellation",
+            "Custom 43mm drivers",
+            "Smart listening features",
+            "Comfortable design"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+     {
+        "product_id": "SW006",
+        "product_title": "Huawei Watch GT 3",
+        "product_image": "https://i.ibb.co/7K6TfT6/huawei-watch-gt-3.jpg",
+        "category": "Smartwatch",
+        "price": 3200,
+        "description": "An elegant smartwatch with comprehensive health monitoring and long battery life.",
+        "specification": [
+            "1.43-inch AMOLED display",
+            "2 weeks battery life",
+            "Health monitoring features",
+            "GPS tracking",
+            "Water resistant up to 50 meters"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "H009",
+        "product_title": "Sony WH-XB900N",
+        "product_image": "https://i.ibb.co.com/tPGx3c9/Philips-GO-A5608-luujohdekuulokkeet-02.jpg",
+        "category": "Headphones",
+        "price": 3999,
+        "description": "Extra bass headphones with noise cancellation and long battery life.",
+        "specification": [
+            "30-hour battery life",
+            "Extra bass sound",
+            "Touch sensor controls",
+            "Quick attention mode",
+            "Voice assistant compatibility"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+      "product_id": "I008",
+      "product_title": "iPhone SE (2nd Generation)",
+      "product_image": "https://i.ibb.co.com/Kw6pvC8/9110683-3-U840-KLGd-Mu-Mf-Bdr1-GPCGc-1.jpg",
+      "category": "iPhone",
+      "price": 102500,
+      "description": "Compact iPhone with powerful A13 Bionic chip and single camera.",
+      "specification": [
+        "4.7-inch Retina HD display",
+        "A13 Bionic chip",
+        "256GB storage",
+        "Single 12MP rear camera",
+        "Touch ID",
+        "Water and dust resistant"
+      ],
+      "availability": true,
+      "rating": 4.2
+    },
+     {
+        "product_id": "P006",
+        "product_title": "OnePlus 12",
+        "product_image": "https://i.ibb.co.com/DVkwxpW/onplus-12r-iron-gray-01.jpg",
+        "category": "Smartphone",
+        "price": 90000,
+        "description": "Innovative foldable smartphone with premium features and compact design.",
+        "specification": [
+            "7.1-inch foldable AMOLED display",
+            "Snapdragon 8+ Gen 1 processor",
+            "12GB RAM, 512GB storage",
+            "50MP main camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+      "product_id": "I009",
+      "product_title": "iPhone X",
+      "product_image": "https://i.ibb.co.com/WtrXvtg/9103107-6-Da-HQGo-Axh4tz-FTk-Ka8-Ora-1.jpg",
+      "category": "iPhone",
+      "price": 108000,
+      "description": "First iPhone with OLED display and Face ID.",
+      "specification": [
+        "5.8-inch Super Retina OLED display",
+        "A11 Bionic chip",
+        "256GB storage",
+        "Dual 12MP cameras with dual OIS",
+        "Face ID",
+        "Water and dust resistant"
+      ],
+      "availability": false,
+      "rating": 4.1
+    },
+    {
+      "product_id": "I010",
+      "product_title": "iPhone 13 Mini",
+      "product_image": "https://i.ibb.co.com/GFqQTdH/apple-iphone-16-plus-white-01.jpg",
+      "category": "iPhone",
+      "price": 101000,
+      "description": "Compact, high-performance iPhone with dual-camera system.",
+      "specification": [
+        "5.4-inch Super Retina XDR display",
+        "A15 Bionic chip",
+        "512GB storage",
+        "Dual 12MP Ultra Wide and Wide cameras",
+        "5G capable",
+        "Ceramic Shield"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+
+    {
+        "product_id": "SW002",
+        "product_title": "Samsung Galaxy Watch 5",
+        "product_image": "https://i.ibb.co.com/GpPrnFz/apple-watch-ultra-2-49mm-lte-natural-titanium-natural-milanese-loop-01.jpg",
+        "category": "Smartwatch",
+        "price": 3500,
+        "description": "A premium smartwatch with body composition analysis, GPS, and sleep tracking.",
+        "specification": [
+            "1.4-inch Super AMOLED display",
+            "Body composition measurement",
+            "Sleep tracking",
+            "Heart rate monitor",
+            "IP68 water resistant"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "SW003",
+        "product_title": "Garmin Forerunner 955",
+        "product_image": "https://i.ibb.co.com/PZyTkHL/apple-watch-series-10-42mm-gps-silver-sport-band-denim-01.jpg",
+        "category": "Smartwatch",
+        "price": 4999,
+        "description": "An advanced GPS smartwatch designed for serious runners and athletes.",
+        "specification": [
+            "1.3-inch sunlight-readable display",
+            "Multi-band GPS",
+            "Long battery life of up to 15 days",
+            "Advanced training metrics",
+            "Water resistant up to 50 meters"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+     {
+      "product_id": "I002",
+      "product_title": "iPhone 14 Pro Max",
+      "product_image": "https://i.ibb.co.com/dG1gcZc/iphone-15-black-01.jpg",
+      "category": "iPhone",
+      "price": 110000,
+      "description": "Premium iPhone with Dynamic Island, ProMotion display, and macro photography capabilities.",
+      "specification": [
+        "6.7-inch Super Retina XDR display with ProMotion",
+        "A16 Bionic chip",
+        "256GB storage",
+        "Triple 48MP Main, 12MP Ultra Wide, 12MP Telephoto cameras",
+        "LiDAR Scanner",
+        "5G capable"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+        "product_id": "SW004",
+        "product_title": "Fossil Gen 6",
+        "product_image": "https://i.ibb.co.com/7NDg6rM/9105499-6-OGt-Joz-Ujh-Jhg-E1-Ct-Wqdto.jpg",
+        "category": "Smartwatch",
+        "price": 3000,
+        "description": "Stylish smartwatch with a customizable display and fitness tracking capabilities.",
+        "specification": [
+            "1.28-inch AMOLED display",
+            "Qualcomm Snapdragon Wear 4100+",
+            "Customizable watch faces",
+            "Heart rate tracking",
+            "Fast charging"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+     {
+      "product_id": "I003",
+      "product_title": "iPhone 13 Pro Max",
+      "product_image": "https://i.ibb.co.com/WtrXvtg/9103107-6-Da-HQGo-Axh4tz-FTk-Ka8-Ora-1.jpg",
+      "category": "iPhone",
+      "price": 102000,
+      "description": "High-performance iPhone with ProMotion display and advanced camera capabilities.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A15 Bionic chip",
+        "512GB storage",
+        "Triple 12MP cameras with macro mode",
+        "5G capable",
+        "Ceramic Shield"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+     {
+        "product_id": "P009",
+        "product_title": "OnePlus 11",
+        "product_image": "https://i.ibb.co.com/RSWp0m9/oneplus-11-titan-black-1-new.jpg",
+        "category": "Smartphone",
+        "price": 78000,
+        "description": "Gaming smartphone with high refresh rate display and powerful hardware.",
+        "specification": [
+            "6.78-inch AMOLED display",
+            "Snapdragon 8 Gen 2 processor",
+            "12GB/16GB RAM, up to 512GB storage",
+            "50MP main camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "P007",
+        "product_title": "Samsung Galaxy",
+        "product_image": "https://i.ibb.co.com/n8JmYRw/samsung-galaxy-z-flip5-graphite-01.jpg",
+        "category": "Smartphone",
+        "price": 72000,
+        "description": "Premium smartphone with Zeiss optics and advanced camera technology.",
+        "specification": [
+            "6.78-inch AMOLED display",
+            "MediaTek Dimensity 9200 processor",
+            "12GB RAM, 256GB storage",
+            "50MP main camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "SW005",
+        "product_title": "Fitbit Sense",
+        "product_image": "https://i.ibb.co.com/X3w0sXL/apple-watch-ultra-2-49mm-lte-natural-titanium-navy-ocean-band-01.jpg",
+        "category": "Smartwatch",
+        "price": 3300,
+        "description": "Smart health watch with stress management and ECG features.",
+        "specification": [
+            "1.58-inch AMOLED display",
+            "Stress management tools",
+            "ECG app",
+            "Sleep score and sleep tracking",
+            "Water resistant"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+     {
+        "product_id": "MB004",
+        "product_title": "MacBook Air M1",
+        "product_image": "https://i.ibb.co.com/D5TdRrn/Macbook-Pro-M3-Silver-PDP-Image-Position-1-WWEN.jpg",
+        "category": "Laptop",
+        "price": 150000,
+        "description": "The original M1 MacBook Air, combining lightweight design with impressive performance.",
+        "specification": [
+            "13.3-inch Retina display",
+            "Apple M1 chip",
+            "8GB unified memory, configurable up to 16GB",
+            "256GB SSD storage, configurable up to 2TB",
+            "720p FaceTime HD camera",
+            "Magic Keyboard with Touch ID"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "SW008",
+        "product_title": "Suunto 7",
+        "product_image": "https://i.ibb.co.com/mB6ZK2f/samsung-galaxy-watch-ultra-dark-gray-01.jpg",
+        "category": "Smartwatch",
+        "price": 4500,
+        "description": "A versatile smartwatch for outdoor adventures with detailed fitness tracking.",
+        "specification": [
+            "1.39-inch AMOLED display",
+            "Multi-sport tracking",
+            "Offline maps",
+            "Wear OS functionality",
+            "Water resistant up to 50 meters"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+
+    {
+        "product_id": "SW010",
+        "product_title": "Withings Steel HR",
+        "product_image": "https://i.ibb.co.com/q5DhWkc/garmin-vivoactive-5-black-1.jpg",
+        "category": "Smartwatch",
+        "price": 3500,
+        "description": "Hybrid smartwatch with heart rate monitoring and long-lasting battery.",
+        "specification": [
+            "1.36-inch hybrid display",
+            "Heart rate monitoring",
+            "25 days battery life",
+            "Sleep tracking",
+            "Water resistant up to 50 meters"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "H001",
+        "product_title": "Sony WH-1000XM5",
+        "product_image": "https://i.ibb.co.com/BcXmN9p/apple-airpods-pro-Gen-2-usb-c-1.jpg",
+        "category": "Headphones",
+        "price": 3999,
+        "description": "Premium noise-canceling over-ear headphones with superior sound quality.",
+        "specification": [
+            "Industry-leading noise cancellation",
+            "30-hour battery life",
+            "Touch sensor controls",
+            "Voice assistant compatibility",
+            "Lightweight design"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "H002",
+        "product_title": "Bose Noise Cancelling Headphones 700",
+        "product_image": "https://i.ibb.co.com/12x9hgp/apple-airpods-4-01.jpg",
+        "category": "Headphones",
+        "price": 4500,
+        "description": "Comfortable over-ear headphones with adjustable noise cancellation and Alexa built-in.",
+        "specification": [
+            "11 levels of noise cancellation",
+            "20-hour battery life",
+            "Touch controls",
+            "Voice pickup technology",
+            "Quick access to voice assistants"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "H003",
+        "product_title": "Sennheiser Momentum 3 Wireless",
+        "product_image": "https://i.ibb.co.com/VgKMMhC/apple-airpods-max-midnight-01.jpg",
+        "category": "Headphones",
+        "price": 3990,
+        "description": "Stylish over-ear headphones with exceptional sound quality and active noise cancellation.",
+        "specification": [
+            "Active Noise Cancellation",
+            "30-hour battery life",
+            "Smart pause feature",
+            "Voice assistant integration",
+            "Premium materials"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "H004",
+        "product_title": "Apple AirPods Max",
+        "product_image": "https://i.ibb.co.com/gzVmSQS/9109483-1-RLwwx-QGHBLi-Aw-Kurvfg-DV.jpg",
+        "category": "Headphones",
+        "price": 5499,
+        "description": "Over-ear headphones with active noise cancellation and spatial audio.",
+        "specification": [
+            "High-fidelity audio",
+            "Active Noise Cancellation",
+            "Spatial audio with dynamic head tracking",
+            "20-hour battery life",
+            "Premium stainless steel and aluminum construction"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "P005",
+        "product_title": "OnePlus 12 Pro",
+        "product_image": "https://i.ibb.co.com/YdVsGcT/onplus-12-silky-black-01.jpg",
+        "category": "Smartphone",
+        "price": 85000,
+        "description": "High-performance smartphone with Leica camera and premium build quality.",
+        "specification": [
+            "6.73-inch AMOLED display",
+            "Snapdragon 8 Gen 2 processor",
+            "12GB RAM, 256GB/512GB storage options",
+            "50MP main camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "H005",
+        "product_title": "Bang & Olufsen Beoplay H95",
+        "product_image": "https://i.ibb.co.com/DCwp0wQ/9111034-6-AMZlsbi-Yf-JDOA77-Ckj-Oe1.jpg",
+        "category": "Headphones",
+        "price": 5990,
+        "description": "Luxury headphones with advanced noise cancellation and exceptional sound quality.",
+        "specification": [
+            "Hybrid Active Noise Cancellation",
+            "38-hour battery life",
+            "Touch controls",
+            "Customizable sound profile",
+            "Premium leather and aluminum materials"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+     {
+        "product_id": "SW009",
+        "product_title": "Mobvoi TicWatch E3",
+        "product_image": "https://i.ibb.co.com/r47RWG8/oneplus-2r-forest-green-01.jpg",
+        "category": "Smartwatch",
+        "price": 3100,
+        "description": "Affordable smartwatch with fitness tracking and Google Wear OS.",
+        "specification": [
+            "1.3-inch AMOLED display",
+            "Wear OS by Google",
+            "Heart rate and sleep tracking",
+            "Long battery life",
+            "Water resistant"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": "H006",
+        "product_title": "Jabra Elite 85h",
+        "product_image": "https://i.ibb.co.com/92c9fHv/Yamaha-TW-ES5-A-True-Wireless-Sports-Earbuds-Black-1.jpg",
+        "category": "Headphones",
+        "price": 3499,
+        "description": "Smart over-ear headphones with advanced noise cancellation and long battery life.",
+        "specification": [
+            "36-hour battery life",
+            "Smart Active Noise Cancellation",
+            "Voice assistant compatibility",
+            "Weatherproof design",
+            "Comfortable ear cushions"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+
+
