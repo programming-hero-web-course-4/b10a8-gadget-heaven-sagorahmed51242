@@ -3,6 +3,7 @@ import Hero from "../Components/Hero"
 import { useLoaderData } from "react-router-dom";
 import ProductsSection from "../Components/ProductsSection";
 
+
 const Home = () => {
   const data = useLoaderData();
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Banner/>
         <Hero/>
         <ProductsSection category={data}/>
+
     </div>
   )
 }

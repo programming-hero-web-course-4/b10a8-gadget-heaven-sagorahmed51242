@@ -5,4 +5,5 @@
 
 body{
     font-family: "Sora", serif;
+    overflow-y: scroll;
 }

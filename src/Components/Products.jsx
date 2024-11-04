@@ -7,7 +7,7 @@ const Products = () => {
     const { category } = useParams();
 
     const [products, setProducts] = useState([data]);
-    const [isAll, setIsAll] = useState(null);
+    const [isAll, setIsAll] = useState(false);
 
     useEffect(() => {
         if (category) {
@@ -53,7 +53,7 @@ const Products = () => {
             </div>
 
             <div className="text-center">
-                {products.length < 6 && <button onClick={() => setIsAll(true)} className="bg-gradient-to-r hover:text-white hover:from-purple-700 hover:to-pink-500  transition duration-300 text-xl border px-4 py-2 rounded-full border-purple-600 mt-10 text-purple-600">Show All</button>}
+                <button onClick={() => setIsAll(true)} className="bg-gradient-to-r hover:text-white hover:from-purple-700 hover:to-pink-500  transition duration-300 text-xl border px-4 py-2 rounded-full border-purple-600 mt-10 text-purple-600">Show All</button>
             </div>
         </>
     )

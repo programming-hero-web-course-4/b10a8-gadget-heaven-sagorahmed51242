@@ -3,7 +3,10 @@ import { NavLink } from "react-router-dom"
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { CiHeart } from "react-icons/ci";
 
+
+
 const Navbar = ({isHome}) => {
+
   return (
     <>
         <div className="flex justify-between items-center max-w-[1280px] mx-auto  py-4">
