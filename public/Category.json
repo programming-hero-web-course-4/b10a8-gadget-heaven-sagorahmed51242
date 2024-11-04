@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "category_name": "All Products",
+        "category": "All Products"
+    },
+    {
+        "id": 2,
+        "category_name": "Laptop",
+        "category": "Laptop"
+    },
+    {
+        "id": 3,
+        "category_name": "Headphones",
+        "category": "Headphones"
+    },
+    {
+        "id": 4,
+        "category_name": "Smartwatch",
+        "category": "Smartwatch"
+    },
+    {
+        "id": 5,
+        "category_name": "Smartphone",
+        "category": "Smartphone"
+    },
+    {
+        "id": 6,
+        "category_name": "iPhone",
+        "category": "iPhone"
+    }
+]

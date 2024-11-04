@@ -1,9 +1,9 @@
-
+[
     {
         "product_id": "L001",
         "product_title": "Dell XPS 13",
         "product_image": "https://i.ibb.co.com/6Dw12JG/still-life-books-versus-technology.jpg",
-        "category": "Laptops",
+        "category": "Laptop",
         "price": 80000,
         "description": "Ultra-thin, ultra-light laptop with excellent build quality.",
         "specification": [
@@ -88,8 +88,8 @@
     {
         "product_id": "L004",
         "product_title": "Asus ROG Zephyrus G15",
-        "product_image": "https://i.ibb.co/com/4TrbD9d/Ajc3ez-CTN4-FGz2v-F4-Lp-Qn9.jpg",
-        "category": "Laptops",
+        "product_image": "https://i.ibb.co.com/D4TStmt/dell-xps-0002-V0-F3-D24072417-ISH611.jpg",
+        "category": "Laptop",
         "price": 179900,
         "description": "High-performance gaming laptop with AMD Ryzen processor.",
         "specification": [
@@ -139,8 +139,8 @@
     {
         "product_id": "L005",
         "product_title": "Lenovo ThinkPad X1 Carbon",
-        "product_image": "https://i.ibb.co/com/t3pbcSG/download.jpg",
-        "category": "Laptops",
+        "product_image": "https://i.ibb.co.com/mGS5382/1684830793-149.jpg",
+        "category": "Laptop",
         "price": 129900,
         "description": "Lightweight business laptop with strong build quality.",
         "specification": [
@@ -156,8 +156,8 @@
     {
         "product_id": "L006",
         "product_title": "Microsoft Surface Laptop 5",
-        "product_image": "https://i.ibb.co/com/CJvdq4q/27-big-dell-xps-13.jpg",
-        "category": "Laptops",
+        "product_image": "https://i.ibb.co.com/D4TStmt/dell-xps-0002-V0-F3-D24072417-ISH611.jpg",
+        "category": "Laptop",
         "price": 109900,
         "description": "Sleek and modern laptop with high-resolution touch display.",
         "specification": [
@@ -173,8 +173,8 @@
     {
         "product_id": "L007",
         "product_title": "Razer Blade 15",
-        "product_image": "https://i.ibb.co/com/Q9MZCp7/Dell-XPS-13-Plus.jpg",
-        "category": "Laptops",
+        "product_image": "https://i.ibb.co.com/Q9MZCp7/Dell-XPS-13-Plus.jpg",
+        "category": "Laptop",
         "price": 199999,
         "description": "Premium gaming laptop with stunning display and performance.",
         "specification": [
@@ -190,8 +190,8 @@
     {
         "product_id": "L008",
         "product_title": "Acer Swift 3",
-        "product_image": "https://i.ibb.co/com/mGS5382/1684830793-149.jpg",
-        "category": "Laptops",
+        "product_image": "https://i.ibb.co.com/t3pbcSG/download.jpg",
+        "category": "Laptop",
         "price": 89900,
         "description": "Affordable, lightweight laptop for everyday use.",
         "specification": [
@@ -225,8 +225,8 @@
     {
         "product_id": "L009",
         "product_title": "LG Gram 17",
-        "product_image": "https://i.ibb.co/com/nQmtwtm/dell-6cvc6-16-3-xps-16-9640-1827009.jpg",
-        "category": "Laptops",
+        "product_image": "https://i.ibb.co.com/4TrbD9d/Ajc3ez-CTN4-FGz2v-F4-Lp-Qn9.jpg",
+        "category": "Laptop",
         "price": 149900,
         "description": "Ultra-light laptop with a large display, ideal for multitasking.",
         "specification": [
@@ -242,8 +242,8 @@
     {
         "product_id": "L010",
         "product_title": "Samsung Galaxy Book Pro 360",
-        "product_image": "https://i.ibb.co/com/D4TStmt/dell-xps-0002-V0-F3-D24072417-ISH611.jpg",
-        "category": "Laptops",
+        "product_image": "https://i.ibb.co.com/CJvdq4q/27-big-dell-xps-13.jpg",
+        "category": "Laptop",
         "price": 129900,
         "description": "Convertible laptop with AMOLED display and S Pen support.",
         "specification": [
@@ -328,8 +328,8 @@
      {
         "product_id": "L003",
         "product_title": "HP Spectre x360",
-        "product_image": "https://i.ibb.co/com/k4MWgF3/view-3d-laptop-device-with-screen-keyboard.jpg",
-        "category": "Laptops",
+        "product_image": "https://i.ibb.co.com/WV0djfC/anete-lusina-zws-Hjak-E-i-I-unsplash.jpg",
+        "category": "Laptop",
         "price": 139900,
         "description": "Flexible 2-in-1 laptop with excellent touch support.",
         "specification": [
@@ -346,7 +346,7 @@
         "product_id": "L002",
         "product_title": "MacBook Pro 14-inch",
         "product_image": "https://i.ibb.co.com/WV0djfC/anete-lusina-zws-Hjak-E-i-I-unsplash.jpg",
-        "category": "Laptops",
+        "category": "Laptop",
         "price": 199999,
         "description": "Powerful laptop with Apple M2 Pro chip and Retina XDR display.",
         "specification": [
@@ -503,7 +503,7 @@
      {
         "product_id": "SW006",
         "product_title": "Huawei Watch GT 3",
-        "product_image": "https://i.ibb.co/7K6TfT6/huawei-watch-gt-3.jpg",
+        "product_image": "https://i.ibb.co.com/X3w0sXL/apple-watch-ultra-2-49mm-lte-natural-titanium-navy-ocean-band-01.jpg",
         "category": "Smartwatch",
         "price": 3200,
         "description": "An elegant smartwatch with comprehensive health monitoring and long battery life.",
@@ -932,6 +932,5 @@
         ],
         "availability": true,
         "rating": 4.5
-    },
-
-
+    }
+]
