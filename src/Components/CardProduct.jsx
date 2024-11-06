@@ -5,9 +5,9 @@ import { TiDeleteOutline } from "react-icons/ti"
 const CardProduct = ({ product, handleDeleteProduct }) => {
   return (
       <div className="max-w-[1000px] mx-auto pt-3">
-          <div className="flex border rounded-xl gap-5 bg-white">
-              <div className="w-[200px] h-[120px] border">
-                  <img className=" w-full h-full rounded-y-lg object-contain p-2" src={product.product_image} alt="" />
+          <div className="flex rounded-xl gap-5 bg-white h-[130px] border border-gray-300 rounded-l-lg">
+              <div className="w-[200px] h-[100%] border-r">
+                  <img className="w-[100%] h-[100%] rounded-y-lg object-contain p-2" src={product.product_image} alt="" />
               </div>
               <div className="flex flex-col gap-2 p-2">
                   <h1 className="text-xl font-bold">{product.product_title}</h1>

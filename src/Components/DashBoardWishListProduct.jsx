@@ -1,10 +1,13 @@
 /* eslint-disable react/prop-types */
 
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import WishProduct from "./WishProduct"
 import {addProduct, deleteWishProduct, getAllWishProduct } from "../utility";
+import { CartContext } from "../utility/ContextApi";
 
 const DashBoardWishListProduct = () => {
+    const { removeFromWish ,addToCart} = useContext(CartContext);
+
 
     const [carditem, setCardItem] = useState([]);
     useEffect(() => {
@@ -13,13 +16,13 @@ const DashBoardWishListProduct = () => {
     }, [])
 
     const handleDeleteProduct = (product) => {
-        deleteWishProduct(product)
+        deleteWishProduct(product, removeFromWish)
         const items = getAllWishProduct();
         setCardItem(items);
     }
     const handleAddToCard = (product) => {
-        addProduct(product);
-        deleteWishProduct(product)
+        addProduct(product, addToCart);
+        deleteWishProduct(product, removeFromWish)
         const items = getAllWishProduct();
         setCardItem(items);
     }
@@ -29,7 +32,7 @@ const DashBoardWishListProduct = () => {
                 <div className="text-xl font-bold">WishList</div>
             </div>:<p className="text-center pt-10 text-3xl font-bold">Empty Card</p>}
             {
-                carditem && carditem.map((item, index) => (<WishProduct key={index} handleAddToCard={handleAddToCard} handleDeleteProduct={handleDeleteProduct} product={item} />))
+                carditem && carditem.map((item, index) => (<WishProduct key={index} handleAddToCard={handleAddToCard}  handleDeleteProduct={handleDeleteProduct} product={item} />))
             }
         </>
     )
