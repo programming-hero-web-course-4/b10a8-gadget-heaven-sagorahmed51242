@@ -3,34 +3,35 @@ import { CiHeart } from "react-icons/ci";
 import { useLoaderData, useParams } from "react-router-dom";
 import StarRating from "../utility/Raging";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import { addProduct, addWishProduct, getAllWishProduct } from "../utility";
-import { CartContext } from "../utility/ContextApi";
+import { MyContext } from "../utility/ContextApi";
 
 const ProductDetails = () => {
     const { id } = useParams();
     const data = useLoaderData();
 
+    const { addToWishlist, addToCart, getWishlistItems } = useContext(MyContext)
+
     const [product, setProduct] = useState({});
     const [isDisable, setDisable] = useState(false);
-    const { addToCart ,addToWish } = useContext(CartContext);
+    // const { addToCart ,addToWish } = useContext(CartContext);
 
 
     useEffect(() => {
         const newData = [...data].find((item) => item.product_id == id);
         setProduct(newData);
-        const productlist = getAllWishProduct();
+        const productlist = getWishlistItems();
         const isExist = productlist.find((card) => card.product_id === newData.product_id);
-        if(isExist){
+        if (isExist) {
             setDisable(true);
         }
-    }, [data, id]);
+    }, [data, getWishlistItems, id]);
 
     const handleAddToCard = () => {
-        addProduct(product, addToCart);
+        addToCart(product);
     };
 
     const handleAddToWishList = () => {
-        addWishProduct(product ,addToWish);
+        addToWishlist(product);
     };
 
     return (
@@ -75,7 +76,7 @@ const ProductDetails = () => {
                                 </button>
                                 <button
                                     disabled={isDisable}
-                                    className={isDisable ? 'border border-red-500 bg-red-400 p-2 rounded-full text-2xl' : 'border border-green-500 p-2 rounded-full text-2xl'}
+                                    className={isDisable ? 'bg-purple-600 text-white p-2 rounded-full text-2xl' : 'border border-green-500 p-2 rounded-full text-2xl'}
                                     onClick={handleAddToWishList}
                                 >
                                     <CiHeart />

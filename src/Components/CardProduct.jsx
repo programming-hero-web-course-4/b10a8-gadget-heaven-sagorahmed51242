@@ -15,7 +15,7 @@ const CardProduct = ({ product, handleDeleteProduct }) => {
                   <h1 className="text-gray-500">Price: {product.price}tk</h1>
               </div>
               <div className="flex-1 relative">
-                  <button onClick={() => handleDeleteProduct(product)}><TiDeleteOutline className="text-4xl text-red-600 absolute top-2 right-5" /></button>
+                  <button onClick={() => handleDeleteProduct(product.product_id)}><TiDeleteOutline className="text-4xl text-red-600 absolute top-2 right-5" /></button>
               </div>
           </div>
       </div>

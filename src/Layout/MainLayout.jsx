@@ -17,7 +17,7 @@ const MainLayout = () => {
     location.pathname === "/iPhone";
 
   return (
-    <CartProvider> {/* Wrap your entire layout here */}
+    <CartProvider>
       <ToastContainer />
       {/* Navbar */}
       <div className={isHome ? 'bg-[#9538E2] text-white sticky top-0 z-50' : 'bg-white/50 sticky top-0 z-50 backdrop-blur-sm'}>
@@ -33,6 +33,8 @@ const MainLayout = () => {
       {/* Page Title Updater */}
       <TitleUpdater />
     </CartProvider>
+
+
   );
 }
 

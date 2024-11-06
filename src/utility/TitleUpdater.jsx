@@ -9,7 +9,7 @@ function TitleUpdater() {
       '/': 'Gadget Heaven',
       '/statistics': 'Statistics Page',
       '/dashboard': 'Dashboard Page',
-      '/products': 'Products Page',
+      '/Products': 'Products Page',
     };
 
     document.title = titles[location.pathname] || 'My React App';

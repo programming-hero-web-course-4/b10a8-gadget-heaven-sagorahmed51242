@@ -3,12 +3,11 @@ import { NavLink } from "react-router-dom"
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { CiHeart } from "react-icons/ci";
 import { useContext } from "react";
-import { CartContext } from "../utility/ContextApi";
-
+import { MyContext } from "../utility/ContextApi";
 
 
 const Navbar = ({isHome}) => {
-    const { cartCount, wishCount } = useContext(CartContext);
+    const {cartCount , wishCount} = useContext(MyContext)
 
   return (
     <>
