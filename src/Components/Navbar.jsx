@@ -21,10 +21,10 @@ const Navbar = ({isHome}) => {
                         <NavLink className={({isActive})=>isActive || isHome? 'underline':"" } to={"/"}>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink className={({isActive})=>isActive? 'underline':"" } to={"/Products"}>Products</NavLink>
+                        <NavLink className={({isActive})=>isActive? 'underline':"" } to={"/products"}>Products</NavLink>
                     </li>
                     <li>
-                        <NavLink className={({isActive})=>isActive? 'underline':"" } to={"/statistics"}>Statistics</NavLink>
+                          <NavLink className={({ isActive }) => isActive ? 'underline' : ""} to={"/statistics"}>Statistics</NavLink>
                     </li>
                     <li>
                         <NavLink className={({isActive})=>isActive? 'underline':"" } to={"/dashboard"}>Dashboard</NavLink>

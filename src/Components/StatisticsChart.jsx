@@ -1,98 +1,38 @@
 import { useEffect, useState } from 'react';
-import { Bar } from 'react-chartjs-2';
-import {
-    Chart as ChartJS,
-    CategoryScale,
-    LinearScale,
-    BarElement,
-    PointElement,
-    LineElement,
-    Title,
-    Tooltip,
-    Legend,
-    Filler
-} from 'chart.js';
-
-ChartJS.register(
-    CategoryScale,
-    LinearScale,
-    BarElement,
-    PointElement,
-    LineElement,
-    Title,
-    Tooltip,
-    Legend,
-    Filler
-);
+import { Bar, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer, ComposedChart } from 'recharts';
 
 const StatisticsChart = () => {
     const [productData, setProductData] = useState([]);
 
     // Fetch data from data.json
     useEffect(() => {
-        fetch('./Data.json')
+        fetch('/Data.json')  // Adjust the path to where your data file is located
             .then(response => response.json())
-            .then(data => setProductData(data.slice(0,15)));
+            .then(data => setProductData(data.slice(0, 15)));  // Limit to 15 items for demo
     }, []);
 
-    // Extract data for the chart
-    const labels = productData.map(item => item.product_title);
-    const prices = productData.map(item => item.price);
-    const ratings = productData.map(item => item.rating * 20);
-    const totals = productData.map(item => item.price * 1.2);
-
-    const chartData = {
-        labels: labels,
-        datasets: [
-            {
-                label: 'Price',
-                data: prices,
-                backgroundColor: 'rgba(128, 0, 128, 0.7)',
-                borderColor: 'rgba(128, 0, 128, 1)',
-                borderWidth: 1,
-                type: 'bar',
-            },
-            {
-                label: 'Total',
-                data: totals,
-                backgroundColor: 'rgba(153, 102, 255, 0.2)',
-                borderColor: 'rgba(153, 102, 255, 1)',
-                borderWidth: 1,
-                type: 'line',
-                fill: true,
-            },
-            {
-                label: 'Rating',
-                data: ratings,
-                backgroundColor: 'rgba(255, 0, 0, 0.5)',
-                borderColor: 'rgba(255, 0, 0, 1)',
-                borderWidth: 1,
-                type: 'bar',
-            },
-        ],
-    };
-
-    const options = {
-        responsive: true,
-        plugins: {
-            legend: {
-                position: 'bottom',
-            },
-            title: {
-                display: true,
-            },
-        },
-        scales: {
-            y: {
-                beginAtZero: true,
-                max: 100,
-            },
-        },
-    };
+    // Data structure expected by Recharts
+    const chartData = productData.map(item => ({
+        name: item.product_title,
+        Price: item.price,
+        Rating: item.rating * 20,  // Assuming rating is out of 5, converting to percentage
+        Total: item.price * 1.2
+    }));
 
     return (
-        <div>
-            <Bar data={chartData} options={options} />
+        <div style={{ width: '100%', height: 400 }}>
+            <ResponsiveContainer width="100%" height="100%">
+                <ComposedChart data={chartData} margin={{ top: 20, right: 20, bottom: 20, left: 20 }}>
+                    <CartesianGrid stroke="#f5f5f5" />
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="Price" fill="rgba(128, 0, 128, 0.7)" />
+                    <Line type="monotone" dataKey="Total" stroke="rgba(153, 102, 255, 1)" />
+                    <Bar dataKey="Rating" fill="rgba(255, 0, 0, 0.5)" />
+                </ComposedChart>
+            </ResponsiveContainer>
         </div>
     );
 };
